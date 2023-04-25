@@ -12,10 +12,10 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  // worker: {
-  //   format: 'es'
-  // },
-  // root: './',
+  worker: {
+    format: 'es'
+  },
+  root: './',
   build: {
     outDir: './dist'
   },
