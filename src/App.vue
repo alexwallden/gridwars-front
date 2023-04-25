@@ -34,6 +34,7 @@ testFetch()
   </header>
 
   <RouterView />
+  <p>Ny publish_dir</p>
   <button @click="resetAll">Reset all</button>
 </template>
 
